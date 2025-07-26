@@ -12,11 +12,11 @@
 
      strategy:
        matrix:
-         node-version: [22.x] # Specify the Node.js version you want to use
+         node-version: [22.11.0] # Specify the Node.js version you want to use
 
      steps:
        - name: Checkout repo
-         uses: actions/checkout@v2
+         uses: actions/checkout@master
 
        - name: Setup Node
          uses: actions/setup-node@v3
