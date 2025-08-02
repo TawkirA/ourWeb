@@ -38,7 +38,7 @@ const Contact: React.FC = () => {
     {
       icon: Mail,
       title: 'Email Us',
-      details: 'info@futureinnovva.com',
+      details: 'info@cds.com',
       description: 'Send us an email anytime'
     },
     {

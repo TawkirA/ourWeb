@@ -44,7 +44,7 @@ const Home: React.FC<HomeProps> = ({ onNavigate }) => {
             <div className="space-y-8">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
                 Transform Your Business with
-                <span className="bg-gradient-to-r from-orange-400 to-orange-500 bg-clip-text text-transparent"> Digital Innovation</span>
+                <span className="bg-gradient-to-r from-orange-400 to-orange-500 bg-clip-text text-transparent"> CDS</span>
               </h1>
               <p className="text-xl text-blue-100 leading-relaxed">
                 We help businesses thrive in the digital age with cutting-edge technology solutions, 
@@ -93,7 +93,7 @@ const Home: React.FC<HomeProps> = ({ onNavigate }) => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-slate-800 mb-4">
-              Why Choose FutureInnova?
+              Why Choose Consulthecia Digital Solution?
             </h2>
             <p className="text-xl text-slate-600 max-w-3xl mx-auto">
               We combine technical expertise with business insight to deliver solutions that drive real results.

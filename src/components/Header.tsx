@@ -27,11 +27,12 @@ const Header: React.FC<HeaderProps> = ({ currentPage, onNavigate }) => {
             className="flex items-center space-x-2 cursor-pointer group"
             onClick={() => onNavigate('home')}
           >
-            <div className="bg-gradient-to-r from-blue-600 to-blue-700 p-2 rounded-lg transform group-hover:scale-110 transition-transform duration-300">
+            {/* <div className="bg-gradient-to-r from-blue-600 to-blue-700 p-2 rounded-lg transform group-hover:scale-110 transition-transform duration-300">
               <Code className="h-6 w-6 text-white" />
-            </div>
+            </div> */}
+            <img className="h-14 w-14" src="../src/assets/logo.jpeg" alt="logo" />
             <span className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent">
-              FutureInnova
+              Consulthecia Digital Solution
             </span>
           </div>
 

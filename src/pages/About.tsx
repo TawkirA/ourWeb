@@ -61,7 +61,7 @@ const About: React.FC = () => {
       <section className="bg-gradient-to-br from-slate-800 via-slate-700 to-blue-800 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">
-            About <span className="text-orange-400">FutureInnova</span>
+            About <span className="text-orange-400">Consulthecia Digital Solution</span>
           </h1>
           <p className="text-xl text-slate-200 max-w-3xl mx-auto leading-relaxed">
             We are a forward-thinking IT company dedicated to transforming businesses through 
