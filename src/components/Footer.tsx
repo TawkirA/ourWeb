@@ -12,7 +12,7 @@ const Footer: React.FC = () => {
               <div className="bg-gradient-to-r from-blue-500 to-blue-600 p-2 rounded-lg">
                 <Code className="h-5 w-5 text-white" />
               </div>
-              <span className="text-xl font-bold">FutureInnova</span>
+              <span className="text-xl font-bold">CDS</span>
             </div>
             <p className="text-slate-300 leading-relaxed">
               Transforming businesses through innovative technology solutions and digital excellence.
@@ -59,7 +59,7 @@ const Footer: React.FC = () => {
             <div className="space-y-3 text-slate-300">
               <div className="flex items-center space-x-3">
                 <Mail className="h-4 w-4 text-blue-400" />
-                <span>info@futureinnovva.com</span>
+                <span>info@cds.com</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="h-4 w-4 text-blue-400" />
@@ -74,7 +74,7 @@ const Footer: React.FC = () => {
         </div>
 
         <div className="border-t border-slate-800 mt-8 pt-8 text-center text-slate-400">
-          <p>&copy; 2025 FutureInnova. All rights reserved. Powered by innovation.</p>
+          <p>&copy; 2025 CDS. All rights reserved. Powered by innovation.</p>
         </div>
       </div>
     </footer>
