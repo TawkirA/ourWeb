@@ -32,7 +32,7 @@ const Header: React.FC<HeaderProps> = ({ currentPage, onNavigate }) => {
               <Code className="h-6 w-6 text-white" />
             </div> */}
             <img className="h-14 w-14" src={logo} alt="logo" />
-            <span className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent">
+            <span className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-blue-700 bg-clip-text text-transparent">
               Consulthecia Digital Solution
             </span>
           </div>
