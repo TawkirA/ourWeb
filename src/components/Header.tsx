@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Menu, X, Code } from 'lucide-react';
+import logo from '../assets/logo.jpeg';
 
 type Page = 'home' | 'about' | 'services' | 'contact';
 
@@ -30,7 +31,7 @@ const Header: React.FC<HeaderProps> = ({ currentPage, onNavigate }) => {
             {/* <div className="bg-gradient-to-r from-blue-600 to-blue-700 p-2 rounded-lg transform group-hover:scale-110 transition-transform duration-300">
               <Code className="h-6 w-6 text-white" />
             </div> */}
-            <img className="h-14 w-14" src="src/assets/logo.jpeg" alt="logo" />
+            <img className="h-14 w-14" src={logo} alt="logo" />
             <span className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent">
               Consulthecia Digital Solution
             </span>
